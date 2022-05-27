@@ -1,0 +1,34 @@
+{
+  "id": 1,
+  "folder_name": "folder 1",
+  "files": [
+    {
+      "id": 1,
+      "file_name": "file 1"
+    },
+    {
+      "id": 2,
+      "file_name": "file 2"
+    }
+  ],
+  "Nested_folders": [
+    {
+      "id": 2,
+      "folder_name": "folder 2",
+      "files": [
+        {
+          "id": 3,
+          "file_name": "file 3"
+        }
+      ],
+      "Nested_folders": [
+        {
+          "id": 3,
+          "folder_name": "folder 3",
+          "files": [],
+          "Nested_folders": []
+        }
+      ]
+    }
+  ]
+}
